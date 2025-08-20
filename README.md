@@ -1,4 +1,6 @@
 # Rotating-the-Gaming-Object
+# Name:Purajith.S
+# Reg No:212223040158
 
 ## Aim:
 To develop a 3D application for rotating the gaming objects in unity.
