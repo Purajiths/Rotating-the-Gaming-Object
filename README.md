@@ -37,7 +37,25 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```
+using UnityEngine;
+
+public class NewMonoBehaviourScript : MonoBehaviour
+{
+    public float speed = 5f;  // Speed of movement
+
+    void Update()
+    {
+        float move = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+        transform.Translate(move, 0, 0);
+    }
+}
+```
 
 ## Output:
+<img width="1919" height="994" alt="image" src="https://github.com/user-attachments/assets/8ae8659e-8007-4e28-bb86-31e66a3fe09e" />
+
 
 ## Result:
+
+A 3D application for rotating the gaming objects in unity is developed
